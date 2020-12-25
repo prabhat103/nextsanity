@@ -1,6 +1,10 @@
 import sanityClient from '../../sanityClient';
 
 export default function BlogPost() {
+  <Head>
+    <title>Next Sanity App</title>
+  </Head>;
+
   return <div>my blog</div>;
 }
 
